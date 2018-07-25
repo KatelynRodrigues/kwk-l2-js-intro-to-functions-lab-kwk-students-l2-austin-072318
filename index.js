@@ -5,7 +5,11 @@ function getUKTime(){
 }
 
 function discountTicket(originalPrice){
-  let discountPrice = 0.8*(originalPrice);
+  let discountPrice = 0.8*(originalPrice)
   return discountPrice
+}
+
+function tweetReply(fanName){
+  return "Hey " + fanName + ", thanks so much for the support! I really appreciate it!"
 }
 
